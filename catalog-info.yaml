@@ -1,0 +1,15 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nexus-db
+  description: Nexus Piostgres DB
+  annotations:
+    github.com/project-slug: ServerlessOpsIO/nexus-db
+spec:
+  type: api
+  lifecycle: production
+  owner: group:00gjdgxs1ur6lsu
+  system: system:versant
+  providesApis:
+    - resource:nexus-db

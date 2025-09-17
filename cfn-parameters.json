@@ -1,0 +1,17 @@
+{
+    "Domain": "development",
+    "System": "versant",
+    "Component": $env.GITHUB_REPOSITORY_NAME_PART_SLUG_CS,
+    "CodeBranch": $env.GITHUB_REF_SLUG_CS,
+    "VpcId": "/org/networking/VpcId",
+    "VpcSubnets": "/org/networking/VpcPrivateSubnets",
+    "DbEngine": "aurora-postgresql",
+    "DbEngineVersion": "16",
+    "DbFamily": "aurora-postgresql16",
+    "DbPort": "5432",
+    "DbUsername": "postgres",
+    "RdsScalingMinCapacity": "0",
+    "RdsScalingMaxCapacity": "4",
+    "RdsScalingMinInstances": "1",
+    "RdsScalingMaxInstances": "3"
+}
