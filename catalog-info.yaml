@@ -7,9 +7,8 @@ metadata:
   annotations:
     github.com/project-slug: ServerlessOpsIO/nexus-db
 spec:
-  type: api
+  type: iac
   lifecycle: production
   owner: group:00gjdgxs1ur6lsu
   system: system:versant
-  providesApis:
-    - resource:nexus-db
+
