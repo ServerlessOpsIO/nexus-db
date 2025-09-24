@@ -44,6 +44,10 @@ Parameters:
     Type: String
     Description: "DB port"
 
+  DbName:
+    Type: String
+    Description: "Name of initial database to create on cluster"
+
   RdsScalingMinCapacity:
     Type: Number
     Description: "RDS scaling min capacity"
@@ -117,6 +121,7 @@ Resources:
       Engine: !Ref DbEngine
       EngineVersion: !Ref DbEngineVersion
       Port: !Ref DbPort
+      DatabaseName: !Ref DbName
       DBClusterParameterGroupName: !Ref RdsDbClusterParameterGroup
       DBSubnetGroupName: !Ref RdsDbSubnetGroup
       VpcSecurityGroupIds:

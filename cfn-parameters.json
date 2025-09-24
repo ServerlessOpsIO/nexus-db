@@ -9,6 +9,7 @@
     "DbEngineVersion": "16",
     "DbFamily": "aurora-postgresql16",
     "DbPort": "5432",
+    "DbName": "nexus",
     "DbUsername": "postgres",
     "RdsScalingMinCapacity": "0",
     "RdsScalingMaxCapacity": "4",
